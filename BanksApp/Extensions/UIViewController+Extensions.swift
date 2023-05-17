@@ -31,8 +31,8 @@ extension UIViewController {
             animationView.backgroundBehavior = .pauseAndRestore
             animationView.play()
 
-            animationView.heightAnchor.pin(equalToConstant: 500).isActive = true
-            animationView.widthAnchor.pin(equalToConstant: 500).isActive = true
+            animationView.heightAnchor.pin(equalToConstant: 120).isActive = true
+            animationView.widthAnchor.pin(equalToConstant: 120).isActive = true
 
             animationBackgroundView.addSubview(animationView)
             animationView.pin(anchors: [.centerX, .centerY], to: view)
