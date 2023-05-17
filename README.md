@@ -11,8 +11,10 @@
 - No CocoaPods
 - Code views
 - Programmatically set constraints
+- Images caching
 
 ## Features app
 - Splash screen with Lottie (Embedded library)
 - Banks list
 - CoreData for initial loading
+- Refresh data in CoreData with pull to refresh in TableView
