@@ -272,6 +272,15 @@
 		0F8A95E52A149F4100D800FA /* BAAPIURLEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8A95E42A149F4100D800FA /* BAAPIURLEncoding.swift */; };
 		0F8A95E72A149F6600D800FA /* BAHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8A95E62A149F6600D800FA /* BAHTTPClient.swift */; };
 		0F8A95E92A149FAC00D800FA /* BAResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8A95E82A149FAC00D800FA /* BAResult.swift */; };
+		0FCE07AD2A14A3FA0050355D /* BAORM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE07AC2A14A3FA0050355D /* BAORM.swift */; };
+		0FCE07B12A14A4270050355D /* BAModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE07AF2A14A4270050355D /* BAModel.xcdatamodeld */; };
+		0FCE07B52A14A4C60050355D /* Bank+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE07B32A14A4C60050355D /* Bank+CoreDataClass.swift */; };
+		0FCE07B62A14A4C60050355D /* Bank+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE07B42A14A4C60050355D /* Bank+CoreDataProperties.swift */; };
+		0FCE07B92A14A5C80050355D /* BanksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE07B82A14A5C80050355D /* BanksListView.swift */; };
+		0FCE07BC2A14A69A0050355D /* BankResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE07BB2A14A69A0050355D /* BankResponseModel.swift */; };
+		0FCE07BE2A14A7870050355D /* BAAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE07BD2A14A7870050355D /* BAAnimation.swift */; };
+		0FCE07C12A14A8D10050355D /* BankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE07C02A14A8D10050355D /* BankTableViewCell.swift */; };
+		0FCE07C32A14ACC20050355D /* BAAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE07C22A14ACC20050355D /* BAAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -542,6 +551,15 @@
 		0F8A95E42A149F4100D800FA /* BAAPIURLEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAAPIURLEncoding.swift; sourceTree = "<group>"; };
 		0F8A95E62A149F6600D800FA /* BAHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAHTTPClient.swift; sourceTree = "<group>"; };
 		0F8A95E82A149FAC00D800FA /* BAResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAResult.swift; sourceTree = "<group>"; };
+		0FCE07AC2A14A3FA0050355D /* BAORM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAORM.swift; sourceTree = "<group>"; };
+		0FCE07B02A14A4270050355D /* BAModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BAModel.xcdatamodel; sourceTree = "<group>"; };
+		0FCE07B32A14A4C60050355D /* Bank+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bank+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0FCE07B42A14A4C60050355D /* Bank+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bank+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0FCE07B82A14A5C80050355D /* BanksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanksListView.swift; sourceTree = "<group>"; };
+		0FCE07BB2A14A69A0050355D /* BankResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankResponseModel.swift; sourceTree = "<group>"; };
+		0FCE07BD2A14A7870050355D /* BAAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAAnimation.swift; sourceTree = "<group>"; };
+		0FCE07C02A14A8D10050355D /* BankTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankTableViewCell.swift; sourceTree = "<group>"; };
+		0FCE07C22A14ACC20050355D /* BAAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -574,12 +592,13 @@
 		0F4116342A1490C600CF1C2B /* BanksApp */ = {
 			isa = PBXGroup;
 			children = (
-				0F8A95DB2A149E9F00D800FA /* Networking */,
-				0F8A95B32A1499EE00D800FA /* Extensions */,
 				0F8A93872A1492C100D800FA /* Application */,
+				0FCE07AB2A14A3ED0050355D /* Database */,
+				0F8A95B32A1499EE00D800FA /* Extensions */,
 				0F8A93C12A14944300D800FA /* Helpers */,
 				0F8A93882A1492DC00D800FA /* Libraries */,
 				0F8A95A72A14982800D800FA /* Modules */,
+				0F8A95DB2A149E9F00D800FA /* Networking */,
 				0F8A93892A1492E400D800FA /* Resources */,
 				0F8A93C82A1494CE00D800FA /* Shared */,
 				0F8A938A2A1492F500D800FA /* Supporting Files */,
@@ -766,6 +785,7 @@
 				0F8A93CD2A1495BE00D800FA /* BAImageCaching.swift */,
 				0F8A93CF2A1495D400D800FA /* BAJSON.swift */,
 				0F8A93D12A1495F700D800FA /* BALog.swift */,
+				0FCE07BD2A14A7870050355D /* BAAnimation.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -773,10 +793,10 @@
 		0F8A93C82A1494CE00D800FA /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				0F8A93C92A1494DA00D800FA /* BAEnums.swift */,
-				0F8A93D32A14963800D800FA /* BAConfiguration.swift */,
 				0F8A93D52A14967D00D800FA /* BABaseView.swift */,
+				0F8A93D32A14963800D800FA /* BAConfiguration.swift */,
 				0F8A95B12A1499A900D800FA /* BAConstants.swift */,
+				0F8A93C92A1494DA00D800FA /* BAEnums.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -1456,6 +1476,8 @@
 				0F8A95CE2A149DEE00D800FA /* BanksListPresenter.swift */,
 				0F8A95CF2A149DEE00D800FA /* BanksListRouter.swift */,
 				0F8A95D12A149DEE00D800FA /* BanksListViewController.swift */,
+				0FCE07BA2A14A6700050355D /* Model */,
+				0FCE07B72A14A5B80050355D /* UI */,
 			);
 			path = BanksList;
 			sourceTree = "<group>";
@@ -1497,15 +1519,68 @@
 		0F8A95DB2A149E9F00D800FA /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				0F8A95DC2A149EA700D800FA /* JSONMappable.swift */,
-				0F8A95DE2A149EB800D800FA /* URL+StaticString.swift */,
+				0FCE07C22A14ACC20050355D /* BAAPI.swift */,
 				0F8A95E02A149EDB00D800FA /* BAAPIError.swift */,
 				0F8A95E22A149F0D00D800FA /* BAAPIRoute.swift */,
 				0F8A95E42A149F4100D800FA /* BAAPIURLEncoding.swift */,
 				0F8A95E62A149F6600D800FA /* BAHTTPClient.swift */,
 				0F8A95E82A149FAC00D800FA /* BAResult.swift */,
+				0F8A95DC2A149EA700D800FA /* JSONMappable.swift */,
+				0F8A95DE2A149EB800D800FA /* URL+StaticString.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		0FCE07AB2A14A3ED0050355D /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				0FCE07B22A14A4B70050355D /* ManagedObjects */,
+				0FCE07AE2A14A4120050355D /* Model */,
+				0FCE07AC2A14A3FA0050355D /* BAORM.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		0FCE07AE2A14A4120050355D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FCE07AF2A14A4270050355D /* BAModel.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FCE07B22A14A4B70050355D /* ManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				0FCE07B32A14A4C60050355D /* Bank+CoreDataClass.swift */,
+				0FCE07B42A14A4C60050355D /* Bank+CoreDataProperties.swift */,
+			);
+			path = ManagedObjects;
+			sourceTree = "<group>";
+		};
+		0FCE07B72A14A5B80050355D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0FCE07BF2A14A8BE0050355D /* Cells */,
+				0FCE07B82A14A5C80050355D /* BanksListView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0FCE07BA2A14A6700050355D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FCE07BB2A14A69A0050355D /* BankResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FCE07BF2A14A8BE0050355D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0FCE07C02A14A8D10050355D /* BankTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1587,6 +1662,7 @@
 				0F8A95372A14980100D800FA /* AnimatorNode.swift in Sources */,
 				0F8A93D02A1495D400D800FA /* BAJSON.swift in Sources */,
 				0F8A95342A14980100D800FA /* ShapeContainerLayer.swift in Sources */,
+				0FCE07BC2A14A69A0050355D /* BankResponseModel.swift in Sources */,
 				0F8A953E2A14980100D800FA /* ZipArchive.swift in Sources */,
 				0F8A958D2A14980100D800FA /* OpacityAnimation.swift in Sources */,
 				0F8A95402A14980100D800FA /* ZipEntry.swift in Sources */,
@@ -1599,6 +1675,7 @@
 				0F8A94FA2A14980100D800FA /* AnimationTextProvider.swift in Sources */,
 				0F8A95652A14980100D800FA /* Font.swift in Sources */,
 				0F8A93B62A14941C00D800FA /* ViperComponent.swift in Sources */,
+				0FCE07B52A14A4C60050355D /* Bank+CoreDataClass.swift in Sources */,
 				0F8A95022A14980100D800FA /* PointValueProvider.swift in Sources */,
 				0F8A93A52A1493F800D800FA /* NSManagedObjectContext+Save.swift in Sources */,
 				0F8A93CE2A1495BE00D800FA /* BAImageCaching.swift in Sources */,
@@ -1653,9 +1730,11 @@
 				0F8A95732A14980100D800FA /* TransformLayer.swift in Sources */,
 				0F8A94E72A14980100D800FA /* CompatibleAnimationKeypath.swift in Sources */,
 				0F8A95552A14980100D800FA /* LayerModel.swift in Sources */,
+				0FCE07B92A14A5C80050355D /* BanksListView.swift in Sources */,
 				0F8A95812A14980100D800FA /* CAAnimation+TimingConfiguration.swift in Sources */,
 				0F8A958F2A14980100D800FA /* LayerDebugging.swift in Sources */,
 				0F8A958C2A14980100D800FA /* VisibilityAnimation.swift in Sources */,
+				0FCE07BE2A14A7870050355D /* BAAnimation.swift in Sources */,
 				0F8A951D2A14980100D800FA /* GroupOutputNode.swift in Sources */,
 				0F8A95B52A1499F900D800FA /* NSLayoutConstraint+Extensions.swift in Sources */,
 				0F8A95702A14980100D800FA /* SolidLayer.swift in Sources */,
@@ -1664,6 +1743,7 @@
 				0F8A95972A14980100D800FA /* DataExtension.swift in Sources */,
 				0F8A950F2A14980100D800FA /* LayerTransformNode.swift in Sources */,
 				0F8A958E2A14980100D800FA /* LayerProperty.swift in Sources */,
+				0FCE07B62A14A4C60050355D /* Bank+CoreDataProperties.swift in Sources */,
 				0F8A95012A14980100D800FA /* GradientValueProvider.swift in Sources */,
 				0F8A959F2A14980100D800FA /* CurveVertex.swift in Sources */,
 				0F8A94E32A14980100D800FA /* LottieAnimation.swift in Sources */,
@@ -1706,6 +1786,7 @@
 				0F8A94ED2A14980100D800FA /* LottieAnimationViewBase.swift in Sources */,
 				0F8A959E2A14980100D800FA /* BezierPathRoundExtension.swift in Sources */,
 				0F4116362A1490C600CF1C2B /* AppDelegate.swift in Sources */,
+				0FCE07C12A14A8D10050355D /* BankTableViewCell.swift in Sources */,
 				0F8A95292A14980100D800FA /* GradientStrokeNode.swift in Sources */,
 				0F8A95822A14980100D800FA /* ShapeAnimation.swift in Sources */,
 				0F8A94EA2A14980100D800FA /* AnimatedSwitch.swift in Sources */,
@@ -1763,6 +1844,7 @@
 				0F8A95E72A149F6600D800FA /* BAHTTPClient.swift in Sources */,
 				0F8A95662A14980100D800FA /* DictionaryInitializable.swift in Sources */,
 				0F8A94F32A14980100D800FA /* Vectors.swift in Sources */,
+				0FCE07AD2A14A3FA0050355D /* BAORM.swift in Sources */,
 				0F8A95132A14980100D800FA /* LayerTextProvider.swift in Sources */,
 				0F8A95562A14980100D800FA /* ImageLayerModel.swift in Sources */,
 				0F8A95282A14980100D800FA /* FillNode.swift in Sources */,
@@ -1786,6 +1868,7 @@
 				0F8A95912A14980100D800FA /* AnimatorNodeDebugging.swift in Sources */,
 				0F8A95982A14980100D800FA /* MathKit.swift in Sources */,
 				0F8A95C32A149AFB00D800FA /* UIViewController+Extensions.swift in Sources */,
+				0FCE07C32A14ACC20050355D /* BAAPI.swift in Sources */,
 				0F8A95CB2A149D2100D800FA /* BAAppearance+Fonts.swift in Sources */,
 				0F8A93C52A1494A000D800FA /* BAColor.swift in Sources */,
 				0F8A95BF2A149AAB00D800FA /* UIImageView+Extensions.swift in Sources */,
@@ -1815,6 +1898,7 @@
 				0F8A95832A14980100D800FA /* CombinedShapeAnimation.swift in Sources */,
 				0F8A959D2A14980100D800FA /* PathElement.swift in Sources */,
 				0F8A95882A14980100D800FA /* StarAnimation.swift in Sources */,
+				0FCE07B12A14A4270050355D /* BAModel.xcdatamodeld in Sources */,
 				0F8A95D32A149DEE00D800FA /* BanksListDisplayData.swift in Sources */,
 				0F8A950B2A14980100D800FA /* ShapeCompositionLayer.swift in Sources */,
 				0F8A95602A14980100D800FA /* KeyframeGroup.swift in Sources */,
@@ -2060,6 +2144,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0FCE07AF2A14A4270050355D /* BAModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0FCE07B02A14A4270050355D /* BAModel.xcdatamodel */,
+			);
+			currentVersion = 0FCE07B02A14A4270050355D /* BAModel.xcdatamodel */;
+			path = BAModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0F41162A2A1490C600CF1C2B /* Project object */;
 }
